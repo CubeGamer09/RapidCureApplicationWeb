@@ -1,0 +1,175 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* Top Bar */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #4fc3f7;
+    color: #fff;
+}
+
+.logo-image {
+    flex: content;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    border-radius: 50%;
+    background-color: black;
+    padding: 2px;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+}
+
+.emergency a {
+    color: #ffeb3b;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #4fc3f7;
+    box-shadow: 0 4px 8px rgba(146, 182, 205, 0.15);
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.highlight, h1 {
+    font-size: 50px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero-image {
+    background-image: url("doctor.png");
+    height: 300px;
+    width: 300px;
+    background: 100px solid black;
+}
+
+.Healing {
+    font-size: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.appointment-btn {
+    padding: 8px 15px;
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background: #b3e5fc;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    flex: 1 1 300px;
+    padding: 20px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Services & Treatments Section */
+.services-treatment-section {
+    text-align: center;
+    background-color: #e1f5fe;
+    padding: 40px 20px;
+}
+
+.service-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.service-card, .emergency-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(126, 194, 210, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover, .emergency-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(103, 189, 199, 0.2);
+}
+
+.service-card i, .emergency-card i {
+    font-size: 24px;
+    color: #0288d1;
+}
+
+.service-card p, .emergency-card p {
+    margin: 10px 0 0;
+}
+
+/* See All Button */
+.see-all-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Emergency Care Section */
+.emergency-care-section {
+    padding: 40px 20px;
+    background-color: #b3e5fc;
+    text-align: center;
+}
+
+.emergency-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
